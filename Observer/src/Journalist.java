@@ -11,7 +11,7 @@ public class Journalist implements GameObserver {
 
     public void Update() {
         System.out.println("I am " + name + " from game magazine " + magazine + " and we are happy" +
-                " to meet the new game " + project.getName() + " in genre " + project.getGenre());
+                " to meet the new game " + project.getName() + " in genre " + project.getGenre() + "!");
         System.out.println();
     }
 }

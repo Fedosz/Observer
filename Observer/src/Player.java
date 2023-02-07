@@ -9,7 +9,7 @@ public class Player implements GameObserver {
 
     public void Update() {
         System.out.println("I am " + name + " the new big fan of game " + project.getName() +
-                " and here is the name of each achievement you can get:");
+                " and here is the list achievements you can get:");
         for (String ach : project.getAchievements()) {
             System.out.println(ach);
         }

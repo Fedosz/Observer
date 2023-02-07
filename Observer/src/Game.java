@@ -11,9 +11,11 @@ public class Game {
     private Set<GameObserver> observers;
 
     public Game(String name, String genre) {
+
         achievements = new HashSet<String>();
         observers = new HashSet<GameObserver>();
         requirements = new HashMap<String, Integer>();
+
         this.name = name;
         this.genre = genre;
     }
