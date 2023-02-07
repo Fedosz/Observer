@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class ConcreteObserver {
+public class ConcreteObserver {
+    public void Update() {
+    }
 }
