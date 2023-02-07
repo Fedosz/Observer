@@ -1,5 +1,5 @@
 public interface IObservable {
-    void AddObserver(IObserver o);
-    void RemoveObserver(IObserver o);
+    void AddObserver(GameObserver o);
+    void RemoveObserver(GameObserver o);
     void NotifyObservers();
 }
